@@ -31,11 +31,20 @@
 // const answer = +prompt('Enter some text', 'some text');
 // console.log(answer + 5);
 
-const answers = [];
+// const answers = [];
 
-answers[0] = prompt('Name?');
-answers[1] = prompt('Age?');
-answers[2] = prompt('sex?');
+// answers[0] = prompt('Name?');
+// answers[1] = prompt('Age?');
+// answers[2] = prompt('sex?');
 
-document.write(answers);
+// document.write(answers);
 
+git ini(initialisation)
+git config --global user.name 'yaroslavlesk'(config local or global)
+git config -- global user.email yaroslavlesk@gmail.com(config local or global)
+git status (status)
+git add -A (add changes)
+git commit -a -m"first commit" (descriptions and commit)
+git log (log of exsisting commits)
+git remote add origin https://github.com/daserose/training.git (use GitHub to connect your commits with the server)
+git push -u origin master (pushing project to GitHub)
