@@ -49,3 +49,5 @@ git log (log of exsisting commits)
 git remote add origin https://github.com/daserose/training.git (use GitHub to connect your commits with the server)
 git push -u origin master (pushing project to GitHub)
 git pull (use to update your files from git repositorie)
+git checkout (discarding last changes)
+git clean -xdf (x - ignoring rooles, d - directories, f - means FORCE!) To delete unknown files.
